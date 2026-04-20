@@ -1,0 +1,45 @@
+.dropdown {
+  position: relative;
+  font-family:monospace;
+}
+
+.dropdownBtn {
+ background-color: green;
+ color: white;
+ padding:14px;
+ font-size:20px;
+ font-family:monospace;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdownItems {
+ display:none;
+ position:absolute;
+ background-color:white;
+ min-width: 180px;
+ box-shadow: 0px 6px 12px 0px rgba(0,0,0,0,2);
+}
+
+.dropdownItems a {
+color: black;
+padding: 16px;
+text-decoration:none;
+display:block;
+}
+
+.dropdownItems a:hover {
+background-color: antique-white;
+}
+
+.dropdown:hover .dropdownItems {
+display:block;
+}
+
+.dropdown:hover .dropdownBtn {
+background-color:blue;
+}
+
+  
+
+
